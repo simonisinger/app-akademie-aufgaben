@@ -33,7 +33,7 @@ void main() {
   Map<String, double> avgData = data.map((key, data) {
     double avgValue = data
         .cast<double>()
-        .reduce((a, b) => a + b) / weatherData.length;
+        .reduce((a, b) => a + b) / data.length;
     return MapEntry(key, avgValue);
   });
 
