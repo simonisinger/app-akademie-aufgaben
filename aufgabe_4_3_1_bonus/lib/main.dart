@@ -78,7 +78,10 @@ class MyApp extends StatelessWidget {
         body: ListView(
           children: [
             _headingLine(),
+            _headingLine(),
             _generateBoxRow(boxSize),
+            _generateBoxRow(boxSize),
+            _generateIconList(),
             _generateIconList(),
           ],
         ),
